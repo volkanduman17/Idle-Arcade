@@ -21,7 +21,7 @@ public class changeYacht : MonoBehaviour
             character.SetActive(false);
 
             yacht.transform.position = character.transform.position;
-            yacht.GetComponentInParent<botTest>().ActivateBoat();
+            yacht.GetComponentInParent<YachtMovement>().ActivateBoat();
             mainCam.SetActive(false);
             secondCam.SetActive(true);
 

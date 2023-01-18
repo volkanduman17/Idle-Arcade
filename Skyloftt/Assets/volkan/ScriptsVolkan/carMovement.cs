@@ -14,11 +14,6 @@ public class carMovement : MonoBehaviour
     public bool carptiMi = false;
     
 
-    void Update()
-    {
-        
-
-    }
 
     private void Start()
     {
@@ -29,7 +24,7 @@ public class carMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag=="sabitCar")
+        if (other.tag=="garageCar")
         {
             if (isDriving==false)
             {

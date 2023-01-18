@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene Transforms.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/volkan/New Scene.unity
+    guid: 2679a5e6d27be67498b15ce58a2895e3
+  - enabled: 1
+    path: Assets/Scenes/GameScene Collectables.unity
+    guid: d16bc73186503f94aa5a450600c75e2a
   m_configObjects: {}
