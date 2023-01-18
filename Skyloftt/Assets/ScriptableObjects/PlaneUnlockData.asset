@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlaneUnlockData
   m_EditorClassIdentifier: 
   unlockableName: Plane
-  price: 3
+  price: 100

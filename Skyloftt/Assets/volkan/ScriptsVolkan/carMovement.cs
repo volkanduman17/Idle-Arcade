@@ -35,8 +35,6 @@ public class carMovement : MonoBehaviour
                 gameObject.GetComponent<Stash>().maxCollectableCount = 10;
                 StartCoroutine(bekleme());
 
-                Debug.Log("araci aldin");
-
             }
 
             if (isDriving==true)
@@ -45,8 +43,7 @@ public class carMovement : MonoBehaviour
                 character.SetActive(true);
                 gameObject.GetComponent<Stash>().maxCollectableCount = 5;
 
-                gameObject.GetComponent<Movement>().Speed = 20f;
-                Debug.Log("araci biraktin");
+                gameObject.GetComponent<Movement>().Speed = 35f;
                 isDriving = false;
                 
 

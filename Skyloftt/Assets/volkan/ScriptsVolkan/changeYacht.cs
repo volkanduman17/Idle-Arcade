@@ -14,7 +14,6 @@ public class changeYacht : MonoBehaviour
     {
         if (other.transform.tag == "Player")
         {
-            Debug.Log("girdin");
            // yacht.transform.parent = character.transform;
            // character.transform.localPosition = new Vector3(0, 0, 0);
             character.transform.localRotation = Quaternion.identity;

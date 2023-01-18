@@ -20,7 +20,6 @@ public class changePlane : MonoBehaviour
     {
         if (other.transform.tag=="Player")
         {
-            Debug.Log("girdin");
             character.transform.parent = aircraft.transform;
             character.transform.localPosition = new Vector3(0, 0, 0);
             character.transform.localRotation = Quaternion.identity;
@@ -31,7 +30,6 @@ public class changePlane : MonoBehaviour
 
         if (other.transform.tag == "pist")
         {
-            Debug.Log("ciktin");
             character.transform.parent = (null);
             character.transform.localRotation = Quaternion.identity;
             character.transform.localPosition = new Vector3(274,0,210);

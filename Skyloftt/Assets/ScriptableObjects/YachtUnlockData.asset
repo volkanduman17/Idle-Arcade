@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: YachtUnlockData
   m_EditorClassIdentifier: 
   unlockableName: Yacht
-  price: 1
+  price: 35

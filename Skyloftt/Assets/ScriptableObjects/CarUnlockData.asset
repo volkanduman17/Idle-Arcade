@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CarUnlockData
   m_EditorClassIdentifier: 
   unlockableName: Car
-  price: 1
+  price: 20

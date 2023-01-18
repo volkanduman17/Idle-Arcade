@@ -5,14 +5,12 @@ using UnityEngine;
 public class YachtMovement : MonoBehaviour
 {
     public VariableJoystick joystick;
-    //public Animator animCtrl;
 
     public float Speed = 5f;
     public float RotationSpeed = 10f;
 
     public bool isActive = false;
 
-    //public float AnimationSpeed;
     public Vector3 movementCache = Vector3.zero;
     public void ActivateBoat()
     {
@@ -40,11 +38,5 @@ public class YachtMovement : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(movementVector, Vector3.up), Time.deltaTime * RotationSpeed);
         }
 
-        //bool isWalking = direction != Vector2.zero;
-       // bool isWalking = direction.magnitude > 0;
-
-        //animCtrl.SetBool("IsWalking", isWalking);
-
-        //animCtrl.SetFloat("SpeedValue", direction.magnitude);
     }
 }

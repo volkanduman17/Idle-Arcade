@@ -5,20 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class FinishGame : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "finish")
         {
-            SceneManager.LoadScene("New Scene");
+            SceneManager.LoadScene("DanceScene");
         }
     }
 }
